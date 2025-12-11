@@ -1,0 +1,51 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    // Environment setup & latest features
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    // Bundler mode
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    // Path aliases for clean imports
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/components/*": ["./components/*"],
+      "@/stores/*": ["./stores/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/assets/*": ["./assets/*"]
+    },
+
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    // Relaxed for development
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false
+  },
+  "include": [
+    ".wxt/types/**/*.ts",
+    "entrypoints/**/*",
+    "components/**/*",
+    "stores/**/*",
+    "lib/**/*",
+    "assets/**/*",
+    "*.ts",
+    "*.tsx"
+  ],
+  "exclude": ["node_modules", ".output", ".wxt"]
+}

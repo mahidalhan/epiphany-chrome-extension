@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiphany - New Tab</title>
+    <!--
+      Critical CSS is inlined for instant first paint (<50ms target)
+      This ensures the page has immediate visual content before JS loads
+    -->
+    <style>
+      /* Critical CSS - inlined for instant first paint */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: #000;
+        color: #fff;
+        font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      /* Loading state before React hydrates */
+      .loading-placeholder {
+        opacity: 0.5;
+        font-size: 1.125rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Placeholder shown during JS load - replaced by React -->
+      <div class="loading-placeholder">Loading Epiphany...</div>
+    </div>
+    <script type="module" src="./main.tsx"></script>
+  </body>
+</html>

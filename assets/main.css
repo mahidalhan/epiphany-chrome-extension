@@ -1,0 +1,135 @@
+@import 'tailwindcss';
+
+/* ==========================================================================
+   Epiphany Design Tokens
+   Using Tailwind v4 @theme directive for custom design system
+   ========================================================================== */
+
+@theme {
+  /* Colors - Background */
+  --color-bg-primary: #000;
+  --color-bg-secondary: #181818;
+  --color-bg-card: #181818;
+
+  /* Colors - Text */
+  --color-text-primary: #fff;
+  --color-text-secondary: rgba(255, 255, 255, 0.6);
+  --color-text-muted: #b8b8b8;
+
+  /* Colors - Borders */
+  --color-border-default: rgba(255, 255, 255, 0.2);
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+
+  /* Colors - Flow States */
+  --color-flow-creative: #9b38ff;
+  --color-flow-focus: #86b4df;
+  --color-flow-recovery: #64d65e;
+
+  /* Colors - Golden Gradient stops */
+  --color-golden-light: rgba(255, 240, 218, 1);
+  --color-golden-mid: rgba(212, 160, 72, 1);
+  --color-golden-dark: rgba(148, 100, 30, 1);
+
+  /* Spacing */
+  --spacing-card: 1rem;
+
+  /* Border Radius */
+  --radius-card: 12px;
+  --radius-button: 8px;
+  --radius-pill: 9999px;
+
+  /* Fonts */
+  --font-family-primary: 'Manrope', system-ui, sans-serif;
+  --font-family-mono: 'Inter', ui-monospace, monospace;
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+/* Golden gradient border effect */
+.golden-glow {
+  background: linear-gradient(
+    135deg,
+    var(--color-golden-light),
+    var(--color-golden-mid),
+    var(--color-golden-dark)
+  );
+  background-clip: padding-box;
+}
+
+/* Card component base */
+.card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-card);
+}
+
+/* Noise texture overlay (will need actual texture in Phase 2) */
+.noise-overlay {
+  position: relative;
+}
+
+.noise-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  /* Placeholder - actual noise texture will be added in Phase 2 */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* GPU-accelerated animations (Phase 5) */
+.gpu-accelerated {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+/* ==========================================================================
+   Flow State Colors
+   ========================================================================== */
+
+.flow-creative {
+  color: var(--color-flow-creative);
+}
+
+.flow-focus {
+  color: var(--color-flow-focus);
+}
+
+.flow-recovery {
+  color: var(--color-flow-recovery);
+}
+
+.bg-flow-creative {
+  background-color: var(--color-flow-creative);
+}
+
+.bg-flow-focus {
+  background-color: var(--color-flow-focus);
+}
+
+.bg-flow-recovery {
+  background-color: var(--color-flow-recovery);
+}
