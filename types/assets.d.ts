@@ -1,5 +1,8 @@
 // Type declarations for static asset imports
 
+// SVGR types for *.svg?react imports
+/// <reference types="vite-plugin-svgr/client" />
+
 declare module '*.svg' {
   const content: string;
   export default content;

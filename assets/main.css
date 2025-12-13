@@ -38,9 +38,13 @@
   --radius-button: 8px;
   --radius-pill: 9999px;
 
-  /* Fonts */
+  /* Fonts - using @fontsource bundled fonts */
   --font-family-primary: 'Manrope', system-ui, sans-serif;
-  --font-family-mono: 'Inter', ui-monospace, monospace;
+  --font-family-charts: 'Inter', ui-monospace, monospace;
+
+  /* Font Family Tokens for Tailwind */
+  --font-manrope: 'Manrope', system-ui, sans-serif;
+  --font-inter: 'Inter', ui-monospace, monospace;
 }
 
 /* ==========================================================================

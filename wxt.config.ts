@@ -1,5 +1,6 @@
 import { defineConfig } from 'wxt';
 import { resolve } from 'path';
+import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
   modules: ['@wxt-dev/module-react'],
@@ -12,6 +13,16 @@ export default defineConfig({
   },
   // Vite configuration - code splitting handled by React.lazy() in Phase 3+
   vite: () => ({
+    plugins: [
+      // SVGR allows importing SVGs as React components via ?react suffix
+      // Usage: import Icon from './icon.svg?react';
+      svgr({
+        svgrOptions: {
+          // Replace fill/stroke with currentColor for Tailwind color classes
+          replaceAttrValues: { '#000': 'currentColor', '#000000': 'currentColor' },
+        },
+      }),
+    ],
     resolve: {
       alias: {
         '@': resolve(__dirname, './'),

@@ -45,4 +45,6 @@ import '@fontsource/manrope/600.css';
 import '@fontsource/inter/500.css';
 ```
 
-For icons: Export from Figma as SVG.
+For icons: Use the lucide icons library, for the ones not in the library, export from Figma as SVG.
+
+
