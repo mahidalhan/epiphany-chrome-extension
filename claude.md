@@ -12,7 +12,7 @@ Use **Bun** instead of Node.js for all JavaScript/TypeScript execution.
 | Extension Framework | WXT | `@wxt-dev/module-react` for React integration |
 | UI Framework | React 18 + TypeScript | Required for R3F compatibility |
 | 3D Framework | React Three Fiber | `@shadergradient/react` for gradient blobs |
-| State Management | Zustand | ~2kb, lightweight stores |
+| State Management | WXT Storage | `storage.defineItem()` for persisted state (viewMode, brainState). Add Zustand in Phase 7-8 for transient real-time data (EEG buffer, computed scores) - they coexist, not replace. |
 | Styling | Tailwind CSS | Pure Tailwind, NO component libraries |
 | Charts | uPlot | ~10kb, for timeline visualization |
 | Storage | Dexie.js | IndexedDB wrapper for activity data |

@@ -1,4 +1,5 @@
 import { defineConfig } from 'wxt';
+import { resolve } from 'path';
 
 export default defineConfig({
   modules: ['@wxt-dev/module-react'],
@@ -10,8 +11,15 @@ export default defineConfig({
     // host_permissions will be added in Phase 6 for URL classification
   },
   // Vite configuration - code splitting handled by React.lazy() in Phase 3+
-  // WXT handles most build optimization automatically
   vite: () => ({
-    // Future: Add custom Vite plugins here if needed
+    resolve: {
+      alias: {
+        '@': resolve(__dirname, './'),
+        '@/components': resolve(__dirname, './components'),
+        '@/stores': resolve(__dirname, './stores'),
+        '@/lib': resolve(__dirname, './lib'),
+        '@/assets': resolve(__dirname, './assets'),
+      },
+    },
   }),
 });
