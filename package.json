@@ -7,6 +7,8 @@
     "dev:firefox": "wxt -b firefox",
     "build": "wxt build",
     "build:firefox": "wxt build -b firefox",
+    "test": "bun test",
+    "flow-ai:dev": "bun --cwd services/flow-ai --env-file .env --env-file ../../.env server.ts",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "postinstall": "wxt prepare"
@@ -14,8 +16,10 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "@types/bun": "latest",
+    "@types/chrome": "^0.1.32",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.182.0",
     "@wxt-dev/module-react": "^1.1.5",
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
@@ -28,12 +32,20 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^2.0.86",
     "@fontsource/inter": "^5.2.8",
     "@fontsource/manrope": "^5.2.8",
+    "@mastra/core": "^0.24.8",
+    "@react-spring/three": "^10.0.3",
+    "@react-three/fiber": "^9.4.2",
+    "@shadergradient/react": "^2.4.20",
     "@wxt-dev/storage": "^1.2.6",
+    "dexie": "^4.2.1",
     "lucide-react": "^0.561.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
+    "three": "^0.182.0",
+    "uplot": "^1.6.32",
     "zustand": "^5.0.9"
   }
 }

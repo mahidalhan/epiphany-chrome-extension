@@ -1,0 +1,296 @@
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"dashboard","isNull":false},"timestamp":1765701156171,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"dashboard","isNull":false},"timestamp":1765701156171,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"App.tsx:52","message":"Suspense rendering Dashboard","data":{},"timestamp":1765701156171,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:48","message":"App render decision","data":{"currentView":"dashboard"},"timestamp":1765701156171,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:52","message":"Suspense rendering Dashboard","data":{},"timestamp":1765701156171,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:48","message":"App render decision","data":{"currentView":"dashboard"},"timestamp":1765701156171,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"stores/flow.ts:130","message":"FlowStore hydration start","data":{},"timestamp":1765701156200,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"stores/flow.ts:132","message":"FlowStore hydration complete","data":{"score":85,"hasHydrated":false},"timestamp":1765701156200,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"Dashboard.tsx:34","message":"Dashboard render start","data":{"timestamp":1765701156200},"timestamp":1765701156200,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:34","message":"Dashboard render start","data":{"timestamp":1765701156201},"timestamp":1765701156201,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:74","message":"LeftColumn render start","data":{},"timestamp":1765701156201,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:74","message":"LeftColumn render start","data":{},"timestamp":1765701156201,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701156201,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701156202,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701156202,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701156202,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701156203,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701156204,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701156204,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701156204,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701156205,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701156205,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701156205,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701156205,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701156205,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701156205,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701156206,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701156209,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701156209,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701156211,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701156212,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701156212,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701156212,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701156213,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701156477,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701156478,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701156478,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701156478,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701156478,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701156478,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701156478,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701156486,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701156486,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701156489,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701164169,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":false},"timestamp":1765701164173,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701164174,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":false},"timestamp":1765701164178,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"dashboard","isNull":false},"timestamp":1765701164201,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"dashboard","isNull":false},"timestamp":1765701164201,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"App.tsx:48","message":"App render decision","data":{"currentView":"dashboard"},"timestamp":1765701164202,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:52","message":"Suspense rendering Dashboard","data":{},"timestamp":1765701164202,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:48","message":"App render decision","data":{"currentView":"dashboard"},"timestamp":1765701164202,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:52","message":"Suspense rendering Dashboard","data":{},"timestamp":1765701164202,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"stores/flow.ts:130","message":"FlowStore hydration start","data":{},"timestamp":1765701164230,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"stores/flow.ts:132","message":"FlowStore hydration complete","data":{"score":85,"hasHydrated":false},"timestamp":1765701164230,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"Dashboard.tsx:34","message":"Dashboard render start","data":{"timestamp":1765701164230},"timestamp":1765701164230,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:34","message":"Dashboard render start","data":{"timestamp":1765701164230},"timestamp":1765701164230,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:74","message":"LeftColumn render start","data":{},"timestamp":1765701164231,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:74","message":"LeftColumn render start","data":{},"timestamp":1765701164231,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701164231,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701164231,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701164231,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701164231,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701164233,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701164233,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701164233,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701164233,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701164234,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701164234,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701164234,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701164234,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701164235,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701164235,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701164235,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701164238,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701164238,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701164241,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701164242,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701164242,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701164243,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701164243,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701164243,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701164243,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701164244,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701164244,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701164244,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701164244,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701164510,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701164510,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701164510,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701164510,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701164511,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701164511,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701164511,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701164530,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701164531,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701164534,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:74","message":"LeftColumn render start","data":{},"timestamp":1765701197932,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:74","message":"LeftColumn render start","data":{},"timestamp":1765701197931,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701197933,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701197932,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701197933,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701197933,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701197934,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701197934,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701197935,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701197935,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701197937,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701197937,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701197937,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701197937,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701197937,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701197938,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701197938,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701197947,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701197947,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701197950,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701197951,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701197951,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701197951,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701197952,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701197952,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701197952,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701197952,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701197952,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701197953,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701197953,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701198752,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701198752,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701198752,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701198752,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701198753,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701198753,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701198753,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701198753,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701198754,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:88","message":"CenterColumn render start","data":{},"timestamp":1765701198754,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701198754,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701198754,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701198755,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701198755,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701198755,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701198762,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701198762,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701198764,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701198765,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701198766,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701198766,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701198766,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701198766,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701198766,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701198767,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701198767,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701198767,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701198767,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701199630,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701199630,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701199630,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701199631,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701199631,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701199631,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701199631,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701199631,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701199633,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701199633,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701199633,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701199633,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701199633,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701199637,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701199637,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701199639,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701199640,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"Dashboard.tsx:96","message":"RightColumn render start","data":{},"timestamp":1765701199640,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701199641,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701200507,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701200507,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701200507,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701200507,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701200508,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701200508,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701200508,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701200508,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701200509,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701200509,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701200510,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701200510,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701200510,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701200513,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701200513,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701200517,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701200519,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701200519,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701200519,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701200519,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701200519,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701200519,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701200520,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701200520,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"App.tsx:48","message":"App render decision","data":{"currentView":"dashboard"},"timestamp":1765701201147,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:52","message":"Suspense rendering Dashboard","data":{},"timestamp":1765701201147,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:48","message":"App render decision","data":{"currentView":"dashboard"},"timestamp":1765701201147,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"App.tsx:52","message":"Suspense rendering Dashboard","data":{},"timestamp":1765701201147,"sessionId":"debug-session","runId":"run1","hypothesisId":"D"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701201152,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701201152,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701201152,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701201152,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701201153,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701201153,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701201153,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701201153,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701201154,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701201154,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701201155,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701201155,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701201155,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701201158,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701201158,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701201161,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701201162,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701201162,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701201162,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701201162,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701201163,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701201163,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701201163,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701201163,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701201453,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701201453,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701201454,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701201454,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701201454,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701201454,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701201454,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701201457,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701201457,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701201459,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701202540,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701202540,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowScoreCard.tsx:23","message":"FlowScoreCard render start","data":{},"timestamp":1765701202540,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowScoreCard.tsx:27","message":"FlowScoreCard score read","data":{"score":85},"timestamp":1765701202540,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701202541,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701202541,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:24","message":"DeviceCard render start","data":{},"timestamp":1765701202541,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"DeviceCard.tsx:27","message":"DeviceCard device read","data":{"status":"connected","name":"Epiphany Headphones"},"timestamp":1765701202541,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701202542,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701202542,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701202542,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":null,"isNull":true},"timestamp":1765701202542,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701202542,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701202546,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701202546,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701202551,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701202553,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701202553,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:23","message":"FlowSessionCard render start","data":{},"timestamp":1765701202553,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowSessionCard.tsx:27","message":"FlowSessionCard store reads complete","data":{"currentTime":"15:40","flowDuration":"8h 30m in flow","timelinePoints":0},"timestamp":1765701202553,"sessionId":"debug-session","runId":"run1","hypothesisId":"A"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701202554,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701202554,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701202554,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701202554,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701202842,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"useWxtStorage.ts:23","message":"WXT storage value loaded","data":{"value":"focus","isNull":false},"timestamp":1765701202842,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701202842,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701202842,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCard.tsx:40","message":"FlowprintsCard render start","data":{},"timestamp":1765701202842,"sessionId":"debug-session","runId":"run1","hypothesisId":"C,E"}
+{"location":"FlowprintsCard.tsx:44","message":"FlowprintsCard storage read","data":{"storageBrainState":"focus","isNull":false},"timestamp":1765701202843,"sessionId":"debug-session","runId":"run1","hypothesisId":"C"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701202843,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701202846,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701202846,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701202848,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701205621,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701205624,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701205624,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701205626,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701206235,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701206240,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:65","message":"FlowprintsCanvas render start","data":{"brainState":"focus","lowPowerMode":false},"timestamp":1765701206241,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowprintsCanvas.tsx:72","message":"WebGL check","data":{"webglSupported":true,"isVisible":true},"timestamp":1765701206243,"sessionId":"debug-session","runId":"run1","hypothesisId":"E"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701210818,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701210818,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}
+{"location":"FlowEntriesList.tsx:15","message":"FlowEntriesList render start","data":{},"timestamp":1765701210818,"sessionId":"debug-session","runId":"run1","hypothesisId":"A,B"}
+{"location":"FlowEntriesList.tsx:19","message":"FlowEntriesList entries read","data":{"entriesCount":3},"timestamp":1765701210818,"sessionId":"debug-session","runId":"run1","hypothesisId":"B"}

@@ -9,7 +9,7 @@ export default defineConfig({
     description: 'Flow state tracking and brain-computer interface dashboard',
     version: '0.1.0',
     permissions: ['tabs', 'idle', 'storage'],
-    // host_permissions will be added in Phase 6 for URL classification
+    host_permissions: ['<all_urls>'],
   },
   // Vite configuration - code splitting handled by React.lazy() in Phase 3+
   vite: () => ({

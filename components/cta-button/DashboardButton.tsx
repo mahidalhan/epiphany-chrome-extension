@@ -1,4 +1,3 @@
-import { useWxtStorage } from '@/lib/hooks/useWxtStorage';
 import { viewMode } from '@/stores/view';
 
 /**
@@ -11,12 +10,15 @@ import { viewMode } from '@/stores/view';
  * - Box shadow: 0px 0px 40px 8px rgba(255,153,0,0.2) (orange glow)
  * - Padding: 8px 20px
  * - Text: rgba(255,255,255,0.54), Manrope SemiBold 16px
+ *
+ * Note: We call viewMode.setValue() directly instead of using useWxtStorage
+ * to avoid creating a duplicate storage watcher that could interfere with
+ * the view switching flow in App.tsx.
  */
 export function DashboardButton() {
-  const [, setView] = useWxtStorage(viewMode);
-
+  // Navigate to dashboard - call storage directly to avoid duplicate watcher
   const handleClick = () => {
-    setView('dashboard');
+    viewMode.setValue('dashboard');
   };
 
   return (

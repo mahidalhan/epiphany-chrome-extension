@@ -4,18 +4,17 @@
  * Design specs from Figma:
  * - Container: gap-[10px]
  * - Divider: 1px line between entries (not after last)
+ *
+ * State: Reads entries from useFlowStore (Zustand)
  */
 
 import { FlowEntryItem } from './FlowEntryItem';
 import { Divider } from '@/components/shared/Divider';
-import type { FlowEntry } from '@/types/flow';
+import { useFlowStore, selectFlowEntries } from '@/stores';
 
-interface FlowEntriesListProps {
-  /** Array of flow entries */
-  entries: FlowEntry[];
-}
+export function FlowEntriesList() {
+  const entries = useFlowStore(selectFlowEntries);
 
-export function FlowEntriesList({ entries }: FlowEntriesListProps) {
   return (
     <div className="flex flex-col gap-2.5">
       {entries.map((entry, index) => (

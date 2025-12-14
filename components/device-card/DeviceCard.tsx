@@ -12,24 +12,28 @@
  *   - Lucide Battery icon (16px)
  *   - "87% battery": Manrope Light 12px
  * - Headphone Image: 120x123px container with gradient fade overlay
+ *
+ * State: Reads from useDeviceStore (Zustand)
  */
 
 import { Headphones, Battery } from 'lucide-react';
 import { Card } from '@/components/card/Card';
-import type { DeviceState } from '@/types/device';
 import { CONNECTION_STATUS_CONFIG } from '@/types/device';
+import { useDeviceStore } from '@/stores';
+import type { DeviceStore } from '@/stores/device';
 
-// SVG import for headphone illustration
-import HeadphoneImage from '@/assets/icons/misc/headphone.svg?react';
+// Stable selectors outside component to prevent re-subscription loops
+const selectName = (state: DeviceStore) => state.name;
+const selectStatus = (state: DeviceStore) => state.status;
+const selectBattery = (state: DeviceStore) => state.battery;
 
-interface DeviceCardProps {
-  /** Device state data */
-  data: DeviceState;
-}
-
-export function DeviceCard({ data }: DeviceCardProps) {
-  const statusConfig = CONNECTION_STATUS_CONFIG[data.status];
-  const isConnected = data.status === 'connected';
+export function DeviceCard() {
+  const name = useDeviceStore(selectName);
+  const status = useDeviceStore(selectStatus);
+  const battery = useDeviceStore(selectBattery);
+  const device = { name, status, battery };
+  const statusConfig = CONNECTION_STATUS_CONFIG[device.status];
+  const isConnected = device.status === 'connected';
 
   return (
     <Card>
@@ -39,7 +43,7 @@ export function DeviceCard({ data }: DeviceCardProps) {
           {/* Device Label */}
           <div className="flex items-center gap-2">
             <Headphones className="w-[19px] h-[19px] text-white" />
-            <span className="text-xs text-white font-manrope">{data.name}</span>
+            <span className="text-xs text-white font-manrope">{device.name}</span>
           </div>
 
           {/* Connection Status */}
@@ -57,22 +61,30 @@ export function DeviceCard({ data }: DeviceCardProps) {
           </div>
 
           {/* Battery Status (only when connected) */}
-          {isConnected && data.battery && (
+          {isConnected && device.battery && (
             <div className="flex items-center gap-1 text-[#767676]">
               <Battery className="w-4 h-4" />
               <span className="text-xs font-light font-manrope">
-                {data.battery.percentage}% battery
+                {device.battery.percentage}% battery
               </span>
             </div>
           )}
         </div>
 
-        {/* Headphone Image with Gradient Fade */}
-        <div className="relative w-[120px] h-[123px] overflow-hidden">
-          {/* Headphone SVG illustration */}
-          <HeadphoneImage className="absolute inset-0 w-full h-full object-contain" />
-
-          {/* Gradient overlay (fades image into card background) */}
+        {/* Headphone Image Placeholder with Gradient Fade */}
+        <div className="relative w-[120px] h-[123px] overflow-hidden rounded-lg">
+          {/* Placeholder gradient (actual headphone image will come from design assets) */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background: 'linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%)',
+            }}
+          />
+          {/* Headphone icon placeholder */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Headphones className="w-12 h-12 text-white/20" />
+          </div>
+          {/* Gradient overlay (fades into card background) */}
           <div
             className="absolute inset-0 pointer-events-none"
             style={{

@@ -1,5 +1,6 @@
-import { Suspense, lazy, useEffect } from 'react';
+import { Suspense, lazy, useEffect, Component, type ReactNode } from 'react';
 import { useWxtStorage } from '@/lib/hooks/useWxtStorage';
+import { useBackgroundMessages } from '@/lib/hooks/useBackgroundMessages';
 import { viewMode } from '@/stores/view';
 
 // Eager load MinimalView for instant first paint (<50ms target)
@@ -7,6 +8,45 @@ import MinimalView from './views/MinimalView';
 
 // Lazy load Dashboard - only fetched when needed
 const Dashboard = lazy(() => import('./views/Dashboard'));
+
+/**
+ * Error Boundary to catch Dashboard render errors
+ */
+interface ErrorBoundaryState {
+  hasError: boolean;
+  error: Error | null;
+}
+
+class DashboardErrorBoundary extends Component<
+  { children: ReactNode },
+  ErrorBoundaryState
+> {
+  constructor(props: { children: ReactNode }) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return { hasError: true, error };
+  }
+
+  override componentDidCatch(error: Error): void {
+    console.error('Dashboard Error:', error);
+  }
+
+  override render(): ReactNode {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen bg-bg-primary noise-overlay flex items-center justify-center">
+          <div className="text-text-secondary text-sm">
+            Dashboard Error: {this.state.error?.message}
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 /**
  * Epiphany New Tab - Main Application Component
@@ -22,6 +62,7 @@ const Dashboard = lazy(() => import('./views/Dashboard'));
  */
 export default function App() {
   const [currentView] = useWxtStorage(viewMode);
+  useBackgroundMessages();
 
   // Preload Dashboard in background during idle time
   useEffect(() => {
@@ -48,9 +89,11 @@ export default function App() {
   return currentView === 'minimal' ? (
     <MinimalView />
   ) : (
-    <Suspense fallback={<LoadingSkeleton />}>
-      <Dashboard />
-    </Suspense>
+    <DashboardErrorBoundary>
+      <Suspense fallback={<LoadingSkeleton />}>
+        <Dashboard />
+      </Suspense>
+    </DashboardErrorBoundary>
   );
 }
 

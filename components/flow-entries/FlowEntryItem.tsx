@@ -57,14 +57,22 @@ export function FlowEntryItem({ entry }: FlowEntryItemProps) {
       ? { background: `linear-gradient(90deg, ${color} 0%, ${color} 100%)` }
       : { backgroundColor: color };
 
+  // Active entry gets a subtle glow animation
+  const activeClasses = entry.isActive
+    ? 'animate-pulse-glow ring-1 ring-white/10'
+    : '';
+
   return (
-    <div className="rounded-xl overflow-hidden">
+    <div className={`rounded-xl overflow-hidden transition-shadow duration-300 ${activeClasses}`}>
       {/* Header Row */}
       <div className="flex justify-between items-start gap-2 px-4 py-2">
         {/* Icon and Text */}
         <div className="flex items-center gap-2">
           {/* State Icon - 24x24 container, 4.8px padding, 14.4px inner icon */}
-          <div className="size-6 rounded-full p-[4.8px] text-bg-secondary" style={iconBgStyle}>
+          <div
+            className={`size-6 rounded-full p-[4.8px] text-bg-secondary ${entry.isActive ? 'animate-pulse' : ''}`}
+            style={iconBgStyle}
+          >
             <IconComponent className="size-[14.4px]" />
           </div>
 

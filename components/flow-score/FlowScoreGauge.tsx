@@ -9,7 +9,13 @@
  * SVG Implementation:
  * - Uses stroke-dasharray and stroke-dashoffset for partial circle rendering
  * - Rings start from top (rotated -90deg)
+ *
+ * Animations (Phase 5):
+ * - Score counter animates smoothly when value changes
+ * - Ring fill animates via CSS transitions with will-change optimization
  */
+
+import { useAnimatedNumber } from '@/lib/hooks/useAnimatedNumber';
 
 interface FlowScoreGaugeProps {
   /** Flow score value (0-100) */
@@ -21,6 +27,9 @@ interface FlowScoreGaugeProps {
 export function FlowScoreGauge({ score, size = 120 }: FlowScoreGaugeProps) {
   // Clamp score between 0 and 100
   const clampedScore = Math.max(0, Math.min(100, score));
+
+  // Animate the displayed score number
+  const animatedScore = useAnimatedNumber(clampedScore, 500);
 
   // SVG viewBox configuration
   const viewBoxSize = 120;
@@ -90,7 +99,8 @@ export function FlowScoreGauge({ score, size = 120 }: FlowScoreGaugeProps) {
           strokeLinecap="round"
           strokeDasharray={innerDash.circumference}
           strokeDashoffset={innerDash.offset}
-          className="transition-all duration-500"
+          className="transition-[stroke-dashoffset] duration-500 ease-out"
+          style={{ willChange: 'stroke-dashoffset' }}
         />
 
         {/* Outer ring (red) */}
@@ -104,15 +114,16 @@ export function FlowScoreGauge({ score, size = 120 }: FlowScoreGaugeProps) {
           strokeLinecap="round"
           strokeDasharray={outerDash.circumference}
           strokeDashoffset={outerDash.offset}
-          className="transition-all duration-500"
+          className="transition-[stroke-dashoffset] duration-500 ease-out"
+          style={{ willChange: 'stroke-dashoffset' }}
         />
       </svg>
 
-      {/* Score display (centered) */}
+      {/* Score display (centered) - animated counter */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center">
-          <span className="text-[28.5px] font-semibold text-[#2E93FF] font-manrope">
-            {clampedScore}
+          <span className="text-[28.5px] font-semibold text-[#2E93FF] font-manrope tabular-nums">
+            {Math.round(animatedScore)}
           </span>
           <span className="text-[11.88px] font-semibold text-[rgba(46,147,255,0.6)] font-manrope">
             pts

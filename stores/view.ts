@@ -15,7 +15,7 @@ export const viewMode = storage.defineItem<'minimal' | 'dashboard'>(
  * The headset delivers targeted neurostimulation based on the selected mode.
  *
  * - 'creative': Purple (#9b38ff) - Enhanced divergent thinking
- * - 'focus': Blue (#007bff) - Deep concentration mode
+ * - 'focus': Blue (#86b4df) - Deep concentration mode
  * - 'recovery': Green (#64d65e) - Relaxation and recovery
  */
 export const BRAIN_STATES = ['creative', 'focus', 'recovery'] as const;
@@ -24,6 +24,15 @@ export type BrainState = (typeof BRAIN_STATES)[number];
 export const brainState = storage.defineItem<BrainState>(
   'local:brainState',
   { fallback: 'focus' }
+);
+
+/**
+ * Flow session active flag.
+ * Defines session boundaries: user starts/stops “Flow Mode”.
+ */
+export const flowSessionActive = storage.defineItem<boolean>(
+  'local:flowSessionActive',
+  { fallback: false }
 );
 
 /**
@@ -55,8 +64,8 @@ export const BRAIN_STATE_CONFIG: Record<
   },
   focus: {
     label: 'Focus Mode',
-    color: '#007bff',
-    bgClass: 'bg-[#007bff]',
+    color: '#86b4df',
+    bgClass: 'bg-[#86b4df]',
   },
   recovery: {
     label: 'Recovery Mode',

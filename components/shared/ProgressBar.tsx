@@ -43,10 +43,10 @@ export function ProgressBar({
     <div className={`h-11 flex items-center px-4 ${className}`}>
       {/* Track */}
       <div className="w-full h-1.5 rounded-[3px] bg-[rgba(120,120,120,0.2)]">
-        {/* Fill */}
+        {/* Fill - will-change for GPU-accelerated width animation */}
         <div
-          className={`h-full rounded-[3px] transition-all duration-300 ${fillClasses}`}
-          style={fillStyle}
+          className={`h-full rounded-[3px] transition-[width] duration-300 ease-out ${fillClasses}`}
+          style={{ ...fillStyle, willChange: 'width' }}
         />
       </div>
     </div>

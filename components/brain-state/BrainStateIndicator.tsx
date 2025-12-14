@@ -4,6 +4,7 @@ import {
   getNextBrainState,
   BRAIN_STATE_CONFIG,
 } from '@/stores/view';
+import { sendBrainStateChange } from '@/lib/messaging';
 
 /**
  * BrainStateIndicator - A clickable pill that displays and toggles the current brain state.
@@ -22,8 +23,10 @@ export function BrainStateIndicator() {
 
   const config = BRAIN_STATE_CONFIG[state];
 
-  const handleClick = () => {
-    setState(getNextBrainState(state));
+  const handleClick = async () => {
+    const next = getNextBrainState(state);
+    await setState(next);
+    await sendBrainStateChange(next);
   };
 
   return (

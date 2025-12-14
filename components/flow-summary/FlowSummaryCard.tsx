@@ -21,14 +21,11 @@ import { Divider } from '@/components/shared/Divider';
 import { FlowSummaryHighlight } from './FlowSummaryHighlight';
 import { FlowSummaryReminder } from './FlowSummaryReminder';
 import { DistractionRow } from './DistractionRow';
-import type { FlowSummaryData } from '@/types/summary';
+import { selectSummary, useSummaryStore } from '@/stores/summary';
 
-interface FlowSummaryCardProps {
-  /** Flow summary data */
-  data: FlowSummaryData;
-}
+export function FlowSummaryCard() {
+  const data = useSummaryStore(selectSummary);
 
-export function FlowSummaryCard({ data }: FlowSummaryCardProps) {
   return (
     <Card variant="tooltip">
       <div className="flex flex-col gap-2">
